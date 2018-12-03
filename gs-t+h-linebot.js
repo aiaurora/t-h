@@ -27,10 +27,10 @@ function doPost(e) {
   }
 
   if (typeof keyWords === 'undefined') {
-    var keyWords = ["溫度", "幾度", "熱不熱", "冷不冷"];
+    var keyWords = ["溫度", "濕度", "幾度", "熱不熱", "冷不冷", "悶不悶"];
   }
   else {
-    keyWords = keyWords.concat(["溫度", "幾度", "熱不熱", "冷不冷"]);
+    keyWords = keyWords.concat(["溫度", "濕度", "幾度", "熱不熱", "冷不冷", "悶不悶"]);
   }
   
   var returnText;
