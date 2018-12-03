@@ -8,7 +8,7 @@ function doGet(e){
   }
 
   var nowDatetime = new Date().toLocaleString();
-  userProperties.setProperty('temperatureText', nowDatetime  + "的溫度是 " + temperature + " 度, 濕度是 " + humidity);
+  userProperties.setProperty('temperatureText', nowDatetime  + "的溫度是 " + temperature + " 度, 濕度是 " + humidity + " %");
   
   var returnText = temperature + " OK," + humidity + " OK";
   var textOutput = ContentService.createTextOutput(returnText)
